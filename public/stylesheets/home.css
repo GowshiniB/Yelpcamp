@@ -1,0 +1,58 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+  url("https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+.brand-name{
+ margin-right: 300px;
+}
+.cover-container{
+  /* 60 view width */
+  max-width: 100vw;
+}
+
+.nav-link{
+  padding: 0.25rem 0;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem ;
+  
+}
+.nav-link:hover{
+  color: rgba(255, 255, 255);
+}
+
+.nav-link.active{
+  color: white;
+}
+
+.btn-secondary, .btn-secondary:hover{
+  font-weight: 600;
+  font-size:medium;
+  color: #333;
+  text-shadow: none;
+  margin-top: 1rem;
+}
+
+@media (max-width: 700px){
+  .heading {
+    margin: 0 auto;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 308px){
+  h3{
+    font-size: 15px !important;
+  }
+  nav{
+    font-size: small;
+  }
+  .nav-link{
+    margin-left: 10px;
+  }
+}
